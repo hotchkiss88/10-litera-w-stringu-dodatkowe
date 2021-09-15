@@ -7,7 +7,6 @@ function stringCount(txt) {
   
   var storage = [];
  
-
   if (typeof txt === "string") {
     storage = txt.toLowerCase().split('');
   }
